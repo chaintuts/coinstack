@@ -25,7 +25,7 @@ Clean the build directory
 
 ### Features
 * Take a basic bitcoin script in string format
-* Supports basic operators: OP_ADD, OP_SUB, OP_DUP, OP_HASH160, OP_EQUALVERIFY, OP_CHECKSIGVERIFY*, OP_VERIFY
+* Supports basic operators: OP\_ADD, OP\_SUB, OP\_DUP, OP\_HASH160, OP\_EQUALVERIFY, OP\_CHECKSIGVERIFY*, OP\_VERIFY
 * \* NOTE: In real Bitcoin scripts, OP_CHECKSIG needs message data that exists outside the script. 
 For this educational interpreter, the op will automatically assume the signature is valid so that interpretation can continue.
 A future update may allow the user to manually pass in message data for real ECDSA signature verification.
